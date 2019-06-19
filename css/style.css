@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 html {
     box-sizing: border-box;
 }
@@ -5,4 +6,69 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body {
+    background: #2c2141;
+    padding: 16px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    background: #f8f8f8;
+    max-width: 628px;
+    min-height: 320px;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card__description {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 32px 32px 40px 0;
+}
+
+.card__image {
+    align-items: flex-start;
+    padding: 32px;
+}
+
+.card__link {
+    color: #e20613;
+    text-decoration: none;
+}
+
+.card__name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 32px 0 0 0;
+    line-height: 41px;
+}
+
+.card__special {
+    color: #fc5b00;
+    font-weight: normal;
+}
+
+.card__subtitle {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #545454;
+}
+
+.main {
+    background: #f8f8f8;
+    display: flex;
+    width: 100%;
+    max-width: 624px;
+    border-radius: 16px;
 }
