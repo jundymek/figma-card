@@ -21,7 +21,6 @@ body {
     display: flex;
     align-items: flex-start;
     background: #f8f8f8;
-    max-width: 628px;
     min-height: 320px;
     width: 100%;
     border-radius: 16px;
@@ -37,7 +36,6 @@ body {
 }
 
 .card__image {
-    align-items: flex-start;
     padding: 32px;
 }
 
