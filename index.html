@@ -1,38 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <title>Wizytówka Łukasz Dymek</title>
-    </head>
 
-    <body>
-        <main class="main">
-            <section class="card">
-                <img src="img/avatar.png" alt="Awatar jundymek" class="card__image" onmouseover="setPhoto(this)" onmouseout="setAvatar(this)"/>
-                <div class="card__container">
-                    <header class="card__header">
-                        <h1 class="card__name">Łukasz Dymek</h1>
-                        <span class="card__subtitle">@jundymek</span>
-                    </header>
-                    <p class="card__description">
-                        Policjant, który od kilku lat uczy się programowania. W
-                        przyszłości chciałby klepać kod z bananem na twarzy.
-                        <strong class="card__special">Zakochany w Pythonie</strong>, aktualnie poszerzający swoją wiedzę z
-                        zakresu frontendu. <strong class="card__special">Uwielbia kodować</strong> i mimo podeszłego wieku
-                        (sic...;)) będzie to robił jeszcze dłuuugooooo...
-                    </p>
-                    <p class="card__description">
-                        W sieci: <a class="card__link" href="https://github.com/jundymek">GitHub</a>,
-                        <a class="card__link" href="https://www.linkedin.com/in/lukasz-dymek/">Linkedin</a>,
-                        <a class="card__link" href="https://www.codewars.com/users/jundymek">CodeWars</a>.
-                    </p>
-                </div>
-            </section>
-        </main>
-        <script src="js/main.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Wizytówka Łukasz Dymek</title>
+    <meta name="description" content="Prosta wizytówka na podstawie projektu z programu figma." />
+    <!-- Title -->
+    <meta property="og:title" content="Wizytówka - Łukasz Dymek" />
+    <!-- OPTIONAL description. 2-4 sentences. -->
+    <meta property="og:description" content="Prosta wizytówka na podstawie projektu z programu figma." />
+    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+    <meta property="og:url" content="https://jundymek.github.io/figma-card/" />
+    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+    <meta property="og:image" content="https://jundymek.github.io/figma-card/img/card.png" />
+</head>
+
+<body>
+    <main class="main">
+        <section class="card">
+            <img src="img/avatar.png" alt="Awatar jundymek" class="card__image" onmouseover="setPhoto(this)"
+                onmouseout="setAvatar(this)" />
+            <div class="card__container">
+                <header class="card__header">
+                    <h1 class="card__name">Łukasz Dymek</h1>
+                    <span class="card__subtitle">@jundymek</span>
+                </header>
+                <p class="card__description">
+                    Policjant, który od kilku lat uczy się programowania. W
+                    przyszłości chciałby klepać kod z bananem na twarzy.
+                    <strong class="card__special">Zakochany w Pythonie</strong>, aktualnie poszerzający swoją wiedzę z
+                    zakresu frontendu. <strong class="card__special">Uwielbia kodować</strong> i mimo podeszłego wieku
+                    (sic...;)) będzie to robił jeszcze dłuuugooooo...
+                </p>
+                <p class="card__description">
+                    W sieci: <a class="card__link" href="https://github.com/jundymek">GitHub</a>,
+                    <a class="card__link" href="https://www.linkedin.com/in/lukasz-dymek/">Linkedin</a>,
+                    <a class="card__link" href="https://www.codewars.com/users/jundymek">CodeWars</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
 </html>
