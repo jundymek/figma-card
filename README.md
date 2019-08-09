@@ -1,5 +1,7 @@
 # Personal card.
 
+[Personal card image](img/figma_card.png)
+
 It is another homework from [WTF](https://cotenfrontend.pl) frontend course.
 
 It is simple card written in pure html, css.  
